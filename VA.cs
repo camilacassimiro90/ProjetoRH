@@ -9,7 +9,7 @@ public class VA : Cartao
   }
   public override double VerificarValorTaxaCartao()
   {
-    const double taxaVA = 0.04;
+    const double taxaVA = 0.02;
     return base.saldo * taxaVA;
   }
 }

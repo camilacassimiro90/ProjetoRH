@@ -16,7 +16,7 @@ public class Cartao
     this.valorTaxa = valorTaxa;
   }
 
-  public double VerificarValorTaxaCartao()
+  public virtual double VerificarValorTaxaCartao()
   {
     return saldo * valorTaxa;
   }

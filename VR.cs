@@ -9,5 +9,10 @@ public class VR : Cartao
   {
 
   }
+  public override double VerificarValorTaxaCartao()
+  {
+    const double taxaVA = 0.04;
+    return base.saldo * taxaVA;
+  }
 
 }
